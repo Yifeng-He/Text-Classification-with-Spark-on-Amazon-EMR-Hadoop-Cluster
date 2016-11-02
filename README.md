@@ -1,7 +1,7 @@
 # Text-Classification-with-Spark
 This project aims to classify the customer reviews on automobiles into five classes using Spark MLLib.
 
-# Data extraction
+# Data Extraction
 
 1. Download the dataset from the link, and then save it into local disk.
 
@@ -13,7 +13,7 @@ http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Automoti
 
 Run CustomerReviewClassification.scala to classify the customer review texts into five classes, using the input data: reviews_Automotive.txt.
 
-# Package the Scala project with SBT
+# Package the Scala Project with SBT
 
 1. Download sbt.rar and unpack it into C:\project\
 
