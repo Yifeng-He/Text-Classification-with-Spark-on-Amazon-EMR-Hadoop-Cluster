@@ -2,7 +2,6 @@
  * This program classifies the customer reviews on automobiles into five classes using Spark MLLib
  * The dataset is Amazon product data which can be obtained from:
  * http://jmcauley.ucsd.edu/data/amazon/
- * Accuracy = 0.6791063098453228
  */
 
 import org.apache.spark.sql.SparkSession
