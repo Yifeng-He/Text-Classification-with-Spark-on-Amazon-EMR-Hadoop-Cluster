@@ -19,6 +19,6 @@ Run CustomerReviewClassification.scala to classify the customer review texts int
 
 2. In the folder: C:\project\sbt\, run: $ sbt assembly
 
-3. Copy the executable JAR file from the folder C:\project\sbt\target\scala-2.11\ to the folder C:\project\, copy the data file credit_data.txt to the folder C:\project\
+3. Copy the executable JAR file from the folder C:\project\sbt\target\scala-2.11\ to the folder C:\project\, copy the data file reviews_Automotive.txt to the folder C:\project\
 
 4. Run the Spark program: $ spark-submit CustomerReviewClassification-assembly-1.0.jar
