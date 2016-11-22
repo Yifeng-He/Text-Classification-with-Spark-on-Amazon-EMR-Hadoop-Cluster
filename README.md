@@ -21,7 +21,7 @@ http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/reviews_Automoti
 
 2. upload the dataset (reviews_Automotive.txt) to s3 bucket: s3://yifengsparkdata
 
-3. sign in to Amazon AWS account, and create an EMR cluster with Spark application
+3. sign in to Amazon AWS account, and create an EMR cluster (Spark 2.0.2 on Hadoop 2.7.3 YARN with Ganglia 3.7.2 and Zeppelin 0.6.2)
 
 4. click "Add Step" to submit the Spark application: a) in the field of Spark-submit options, enter: --class CustomerReviewClassificationEMR --verbose; b) in the field of Application Location, enter: s3://yifengspark/CustomerReviewClassificationEMR-assembly-1.0.jar
 
