@@ -45,7 +45,7 @@ object CustomerReviewClassificationEMR {
     setupLogging()
     
     // step 2: load the data into dataFrame
-    val dataset_lines = spark.read.textFile("s3://yifengsparkdata/reviews_Automotive.txt")
+    val dataset_lines = spark.textFile("s3://yifengsparkdata/reviews_Automotive.txt")
     // convert the DataSet of lines to DataFrame of Rows
     import spark.implicits._
     val data_raw = dataset_lines.map(convertLinetoRow).filter(x => x.label < 9).toDF
